@@ -134,3 +134,24 @@ body{
   font-weight: 500;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 768px) {
+  .text-intro .intro h1,
+  .text-intro .intro h2,
+  .text-intro .author h3,
+  .text-intro .author p {
+    font-size: 18px;
+  }
+
+  .container .card .content h2 {
+    font-size: 48px;
+  }
+
+  .container .card .content h3 {
+    font-size: 20px;
+  }
+
+  .container .card .content p {
+    font-size: 14px;
+  }
+}
