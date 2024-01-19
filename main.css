@@ -96,16 +96,16 @@ body{
   text-align: center;
 }
 
-.container .card .content .hov{
+/* .container .card .content .hov{
   transform: translateY(100px);
   opacity: 0;
   transition: 0.5s;
-}
+} */
 
-.container .card:hover .content .hov{
+/* .container .card:hover .content .hov{
   transform: translateY(0);
   opacity: 1;
-}
+} */
 
 .container .card .content h3{
   font-size: 40px;
