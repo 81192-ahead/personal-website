@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Edward Island|Data Science</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="ds_index.css" />
+    <script src="index.js"></script>
+</head>
+    <body>
+        <div class="left_container">
+            <div class="btn prof" onclick="showContent('professional')">
+                <h3>Professional</h3>
+            </div>
+            <div class="btn research" onclick="showContent('research')">
+                <h3>Research</h3>
+            </div>
+            <div class="btn inschool" onclick="showContent('inschool')">
+                <h3>In-School</h3>
+            </div>
+            
+        </div>
+        <div class="right_container">
+            <div class="right_present_professional content">
+                <div class="card">
+                    <h1>Century Games - User Statistic Assistant</h1>
+                    <h2>Beijing July 2021 - December 2021</h2>
+                    <p>As a user statistic assistant, I continuously monitored user experiences from closed to open beta, analyzed player
+                        retention, and devised data-driven strategies for a 3% increase in the 3-day retention rate. I also designed and analyzed surveys
+                        during 3-day, 7-day, and 14-day testing phases, and conducted in-depth interviews to identify reasons for player churn during the 7-14 day period,
+                        producing actionable reports.
+                    </p>
+                </div>
+                <hr /> 
+                <div class="card">
+                    <h1>Baidu - Business Analytics Assistant</h1>
+                    <h2>Beijing September 2020 - December 2020</h2>
+                    <p>As a bussiness analytics assistant, I conducted in-depth industry research on online education and adult education, exploring dimensions such as market trends,
+                        sub-sectors, key players, and competitors. Through thorough desktop research, I analyzed the existing business models across various segments of the industry value chain.
+                        The findings provided a comprehensive understanding of the industry's current landscape. Subsequently, I offered strategic support for Baidu Library's market entry,
+                        drawing on insights gained from the analysis.
+                    </p>
+                </div>
+                <hr /> <!-- Horizontal line separator -->
+                <div class="card">
+                    <h1>Giance Technologies - Data Analytics Assistant</h1>
+                    <h2>Beijing May 2019 - August 2019</h2>
+                    <p>As a data analytics assistant, I cleaned and annotated over 10,000 records in the database, and assisted to train the company's classificaiton model with the cleaned data,
+                        Additionally, I developed a Python web scraper to collect financial news from more than 10 reputable companies as new materials for the company's NLP model.
+                    </p>
+                </div>
+            </div>
+            <div class="right_present_research content">
+                <div class="card">
+                    <h1>ENSAE - Research Assistant</h1>
+                    <h2>Paris February 2023 - September 2023</h2>
+                    <p> Working with the professor on the project of Inference on SNDS databse with quantitative measurement, I simulated bipartite data between patients and doctors corresponding to
+                        the calibrated model, and estimated the potential costs of each visits with a second-ordred model.
+                        Besides, I estimated two-way fixed effects and coefficients with logistic regression model based on the simulated bata, and in the end evaluated the results with different methods
+                        including euclidean norms and cross validation, and validated the results via analysis on bigger scale of data with Spark.
+                    </p>
+                </div>
+                <hr />
+                <div class="card">
+                    <h1>Research on Dissemination Strategy of Changchun on Tiktok</h1>
+                    <h2>Paris October 2022 - January 2023</h2>
+                    <p>As the first author of this research, I developed a web scraper using HTMLSession to collect 500+ videos and relevant data on Tiktok platform, and conducted basic statistical analysis.
+                        I then constructed first-order and second-order regression model to delve into the relative impact of various factors on city brand's dissemination heat.
+                    </p>
+                </div>
+                <hr />
+            </div>
+            <div class="right_present_inschool content">
+                <div class="card">
+                    <h1>A Case Study of Customer Segmentation</h1>
+                    <h2>Paris October 2022 - December 2022</h2>
+                    <p>For this case study, I preprocessed the data via 3 stages, data cleaning, exploratory data analysis, and feature engineering, after which I built different classification models
+                        including KNN, Adaboost, and randomforest. With the results, I evaluated those models with metrics including precision rate, recall rate, and f1-socre, and drew the conclusion that
+                        the randomforest classifier performed comparatively better on this dataset.
+                    </p>
+                </div>
+                <hr />
+            </div>
+            <div class="return">
+                <div class="btn ds_to_home">
+                    <a href="../../index.html">
+                        <h2>Return</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Initialize with 'Professional' content displayed
+            showContent('professional');
+        </script>
+    </body>
+</html>
