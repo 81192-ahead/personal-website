@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Edward Island|Data Science</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="game_index.css" />
+    <script src="index.js"></script>
+</head>
+    <body>
+        <div class="left_container">
+            <div class="btn prof" onclick="showContent('professional')">
+                <h3>Professional</h3>
+            </div>
+            <div class="btn research" onclick="showContent('research')">
+                <h3>Thinker Mall</h3>
+            </div>
+            <div class="btn inschool" onclick="showContent('inschool')">
+                <h3>Havoc Unleashed</h3>
+            </div>
+            
+        </div>
+        <div class="right_container">
+            <div class="right_present_professional content">
+                <div class="card">
+                    <h1>LILITH Games - Technical Designer</h1>
+                    <h2>Shanghai January 2022 - September 2022</h2>
+                    <p> Our project is constructed with a customized game engine, therefore, I contributed to the improvement of our own engine by recognizing the errors and solving them with engineers,
+                        and by optimizing the existing gameplay systems and implementing new features.
+                        Apart from that, I was also responsible to design the game level, and built the level blueprints independently. Besides, I organized more than 5 white-box tests for my levels,
+                        ranking second in the company's historical records. 
+                    </p>
+                </div>
+                <hr /> 
+                <div class="card">
+                    <h1>Oasis Game Studio, ByteDance - Automation Testing Assistant</h1>
+                    <h2>Beijing March 2021 - July 2021</h2>
+                    <p>I authored over 20 Python automation scripts under the Shoots framework, covering approximately 40% of game functionality modules, and regularly maintained automation testing cases,
+                        intercepting 5+ game crashes in advance through automation testing and promply reporting 20+ critical/severe level bugs.
+                    </p>
+                </div>
+            </div>
+            <div class="right_present_research content">
+                <div class="card">
+                    <h1>Great Opening! Thinker Mall - Programmer</h1>
+                    <h2>Paris September 2023 - current</h2>
+                    <p> 
+                        "Grand Opening! Thinker Mall" is a simulation management game where you take on the role of a mall operator in the town of Thinker. 
+                        In this game, you'll be responsible for decorating and expanding the mall, as well as managing and implementing various business policies. 
+                        With hundreds of different products available for sale in ten different stores, negotiate with suppliers to acquire them! 
+                        Additionally, expect nearly 50 customers, each with unique personalities and preferences, to visit your mall. Seize the opportunity to earn their money and make your mall thrive!
+                    </p>
+                    <video class="mall_video" width="640" height="360" controls>
+                        <source src="../../dict/images/thinkermall.mp4" type="video/mp4">
+                        Your browser does not support the video type.
+                    </video>
+                </div>
+            </div>
+            <div class="right_present_inschool content">
+                <div class="card">
+                    <h1>Havoc Unleashed - Programmer</h1>
+                    <h2>Paris April 2023 - May 2023</h2>
+                    <p>Havoc Unleashed is a 2D side-scrolling shooter game.
+                    </p>
+                    <p>Video Link: https://www.bilibili.com/video/BV1wV4y1k7nY/?share_source=copy_web</p>
+                </div>
+        </div>
+        <div class="return">
+            <div class="btn ds_to_home">
+                <a href="../../index.html">
+                    <h2>Return</h2>
+                </a>
+            </div>
+        </div>
+        <script>
+            // Initialize with 'Professional' content displayed
+            showContent('professional');
+        </script>
+    </body>
+</html>
