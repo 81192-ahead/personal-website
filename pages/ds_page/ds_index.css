@@ -18,7 +18,7 @@ body{
 
   .left_container {
     width: 200px;
-    height: 250px;
+    height: 300px;
     background-color: rgba(51, 51, 51, 0.8); /* Background color with 80% opacity */
     display: flex;
     flex-direction: column;
@@ -59,7 +59,8 @@ body{
 
 .right_present_professional,
 .right_present_research,
-.right_present_inschool {
+.right_present_inschool,
+.right_present_kaggle {
     position: absolute;
     top: 30px;
     left: 50px;
@@ -74,12 +75,15 @@ body{
 
 .right_present_professional.active,
 .right_present_research.active,
-.right_present_inschool.active {
+.right_present_inschool.active,
+.right_present_kaggle.active {
     display: block;
 }
 
 .card {
+    position: relative;
     color: #fff;
+    /* justify-content: center; */
 }
 
 .card h1{
@@ -98,6 +102,23 @@ body{
     font-size: 18px;
     font-weight: 200;
     margin-bottom: 25px;
+}
+
+.stacking_img {
+    position: relative;
+    text-align: center;
+}
+
+.stacking_img img {
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 70%;
+}
+
+.stacking_img p {
+    /* 用于占据空间，以避免文本与图片重叠 */
+    margin: 0;
 }
 
 .return {

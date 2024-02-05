@@ -19,6 +19,9 @@
             <div class="btn inschool" onclick="showContent('inschool')">
                 <h3>In-School</h3>
             </div>
+            <div class="btn kaggle" onclick="showContent('kaggle')">
+                <h3>Kaggle</h3>
+            </div>
             
         </div>
         <div class="right_container">
@@ -78,6 +81,30 @@
                     <p>For this case study, I preprocessed the data via 3 stages, data cleaning, exploratory data analysis, and feature engineering, after which I built different classification models
                         including KNN, Adaboost, and randomforest. With the results, I evaluated those models with metrics including precision rate, recall rate, and f1-socre, and drew the conclusion that
                         the randomforest classifier performed comparatively better on this dataset.
+                    </p>
+                </div>
+                <hr />
+            </div>
+            <div class="right_present_kaggle content">
+                <div class="card">
+                    <h1>Toxic Comment Classification</h1>
+                    <h2>Paris November 2023 - January 2024</h2>
+                    <p> In this competition, we first conducted exploratory data analysis and observed the critical features of the dataset. Based on the observation, we preprocessed the data, including cleaning unicodes, emojis, and tones. <br>
+                        Before training models, we tested and built our embedding matrix with pre-trained word vectors. After experiments, we chose glove.840B.300d since it has better performance. <br>
+                        During model traning, we applied cross-validation to obtain more stable results and avoid overfitting. Moreover, in consideration of diversity among the models for stacking, 
+                        we applied different numbers of folds for cross validation and also different numbers of epoches on different models. <br>
+                        In terms of models, we trained Bi-LSTM, Bi-GRU with attention, CNN, and BERT. <br>
+                        In the end, we stacked our models altogether to improve our score in the competition. <br>
+                        For the second-order model, we tried Linear Regression, Logistic Regression, and SVM. Finally, we imported hyper features obtained from the base models to the second-order model
+                        and predict the ultimate results of our comments.
+                    </p>
+                    <div class="stacking_img">
+                        <img src="../../dict/images/stacking.png" alt="Process of Stacking">
+                        <p> Process of Stacking</p>
+                    </div>
+                    <p>
+                        Our final stacked model ranked top 3 in this in-class kaggle competition. <br>
+                        Full report and codes could be found on github: https://github.com/xiangyang0608/toxiccommentclassification.git
                     </p>
                 </div>
                 <hr />
